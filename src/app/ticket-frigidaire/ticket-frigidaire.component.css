@@ -1,0 +1,112 @@
+@page {
+    /* dimensions for the whole page */
+    size: A5;
+    margin: 0;
+}
+
+#marginGlobal {
+    margin: 1.41mm
+}
+
+.card {
+    /* A5 dimensions */
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#greenBox {
+    height: 21.51mm;
+    width: 148.5mm;
+    background-color: green;
+    text-align: center;
+}
+
+#yellowBox1 {
+    background-color: yellow;
+    width: 145.12mm;
+    height: 17.1mm;
+    margin-bottom: 2.96mm;
+}
+
+.korfi1 {
+    height: 8.47mm;
+    width: 142.07mm;
+    background-color: pink;
+    margin-top: 2.96mm;
+    margin-left: 2.96mm;
+    text-align: center;
+}
+
+.korfi2 {
+    height: 8.47mm;
+    width: 142.07mm;
+    background-color: pink;
+    margin-top: 3.22mm;
+    margin-left: 2.96mm;
+    text-align: center;
+}
+
+.korfi3 {
+    height: 8.47mm;
+    width: 142.07mm;
+    background-color: pink;
+    margin-top: 3.47mm;
+    margin-left: 2.96mm;
+    text-align: center;
+}
+
+.labelPrix {
+    height: 23.88mm;
+    width: 69.75mm;
+    float: left;
+    margin-top: 4.15mm
+}
+
+.prixCompt {
+    height: 23.88mm;
+    width: 71.75mm;
+    float: left;
+    margin-top: 5.15mm;
+    margin-left: 3.35mm
+}
+
+.carcteristique {
+    padding-top: 2.5mm;
+    height: 9.43mm;
+    /*
+border: 1px;
+border-style: dashed;
+*/
+}
+
+.infoArticle {
+    height: 7.36mm;
+}
+
+.blueArea {
+    height: 20.83mm;
+    width: 144.86mm;
+    background-color: blue;
+    margin-bottom: 3.15mm;
+}
+
+.lb {
+    text-align-last: center;
+    margin-left: 9.59mm;
+    font-size: 20pt;
+    font-weight: bold;
+    height: 50px;
+    line-height: 8mm;
+}
+
+.lb1 {
+    margin-left: 9.59mm;
+    font-size: 11pt;
+    height: 50px;
+    line-height: 8mm;
+}
+
+table tr {
+    background-color: red;
+}

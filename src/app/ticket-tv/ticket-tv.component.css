@@ -1,0 +1,65 @@
+.card {
+    /* A5 dimensions */
+    height: 210mm;
+    width: 148.5mm;
+    margin: 0;
+}
+
+#img img {
+    height: 21.17mm;
+    width: 85.85mm;
+    margin-left: 30.4mm;
+    margin-right: 31.75mm;
+    margin-bottom: 3.27mm;
+}
+
+#yellowArea {
+    background-color: yellow;
+    width: 145.12mm;
+    height: 17.1mm;
+    margin-bottom: 2.96mm;
+}
+
+.carcteristique {
+    padding-top: 2.5mm;
+    height: 9.43mm;
+    /*
+border: 1px;
+border-style: dashed;
+*/
+}
+
+.infoArticle {
+    height: 7.36mm;
+}
+
+.blueArea {
+    height: 20.83mm;
+    width: 144.86mm;
+    background-color: blue;
+    margin-bottom: 3.15mm;
+}
+
+#yellowArea2 {
+    background-color: yellow;
+    width: 144.61mm;
+    height: 23.88mm;
+}
+
+.lb {
+    margin-left: 9.59mm;
+    font-size: 11pt;
+    height: 50px;
+    line-height: 8mm;
+}
+
+table td {
+    width: 30.05mm;
+    text-align: center;
+    border-style: solid;
+    border: 0.5mm;
+}
+
+table tr {
+    background-color: red;
+}

@@ -1,0 +1,315 @@
+<div id="imp" style=" height: 210mm;width: 148.5mm;margin: 0;padding: 0;">
+
+    <div style="height: 48mm;width: 148.5mm; margin: 0;padding: 0.75mm;border-style: solid;">
+
+
+        <div style="height: 18mm;width: 145.5mm; margin-bottom: 3mm;border-style: solid;">
+            <!-- prix integer -->
+            <div style="padding:1em;float: left;font-size: 20pt;font-weight: bold;"> {{PrixConptant1}} DT</div>
+
+            <!-- prix string -->
+            <div style="height:100%;width: 75.9mm;float: left;padding:1em;"></div>
+
+        </div>
+        <div style=" height: 24mm;width: 145.5mm; margin: 0;padding: 0;border-style: solid;">
+            <!-- table detail -->
+            <div style="height:100%;width: 50%;float: left;font-weight: bold;">
+
+                REF : {{Ref1}} <br> {{Des1}}
+
+            </div>
+            <!-- table credit -->
+            <div>
+                <table style="height:90%;width: 40%; ">
+                    <tr>
+                        <td width="70% "></td>
+                        <td>{{Prix121}}</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>{{Prix241}}</td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+
+                        <td>{{prix361}}</td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div style="height: 48mm;width: 148.5mm; margin: 0;padding: 0.75mm;border-style: solid;">
+
+
+        <div style="height: 18mm;width: 145.5mm; margin-bottom: 3mm;border-style: solid;">
+            <!-- prix integer -->
+            <div style="padding:1em;float: left;font-size: 20pt;font-weight: bold;"> {{PrixConptant2}} DT</div>
+
+            <!-- prix string -->
+            <div style="height:100%;width: 75.9mm;float: left;padding:1em;"></div>
+
+        </div>
+        <div style=" height: 24mm;width: 145.5mm; margin: 0;padding: 0;border-style: solid;">
+            <!-- table detail -->
+            <div style="height:100%;width: 50%;float: left;font-weight: bold;">
+
+                REF : {{Ref2}} <br> {{Des2}}
+
+            </div>
+            <!-- table credit -->
+            <div>
+                <table style="height:90%;width: 40%; ">
+                    <tr>
+                        <td width="70% "></td>
+                        <td>{{Prix122}}</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> {{Prix242}}</td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+
+                        <td>{{prix362}}</td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div style="height: 48mm;width: 148.5mm; margin: 0;padding: 0.75mm;border-style: solid;">
+
+
+        <div style="height: 18mm;width: 145.5mm; margin-bottom: 3mm;border-style: solid;">
+            <!-- prix integer -->
+            <div style="padding:1em;float: left;font-size: 20pt;font-weight: bold;"> {{PrixConptant3}} DT</div>
+            <!-- prix string -->
+            <div style="height:100%;width: 75.9mm;float: left;padding:1em;"></div>
+
+
+        </div>
+        <div style=" height: 24mm;width: 145.5mm; margin: 0;padding: 0;border-style: solid;">
+            <!-- table detail -->
+            <div style="height:100%;width: 50%;float: left;font-weight: bold;">
+
+                REF : {{Ref3}} <br> {{Des3}}
+
+            </div>
+            <!-- table credit -->
+            <div>
+                <table style="height:90%;width: 35%; ">
+                    <tr>
+                        <td width="70% "></td>
+                        <td>{{Prix123}}</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>{{Prix243}}</td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+
+                        <td>{{prix363}}</td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div style="height: 48mm;width: 148.5mm; margin: 0;padding: 0.75mm;border-style: solid;">
+
+
+        <div style="height: 18mm;width: 145.5mm; margin-bottom: 3mm;border-style: solid;">
+            <!-- prix integer -->
+            <div style="padding:1em;float: left;font-size: 20pt;font-weight: bold;"> {{PrixConptant4}} DT</div>
+            <!-- prix string -->
+            <div style="height:100%;width: 75.9mm;float: left;padding:1em;"></div>
+
+
+        </div>
+        <div style=" height: 24mm;width: 145.5mm; margin: 0;padding: 0;border-style: solid;">
+            <!-- table detail -->
+            <div style="height:100%;width: 50%;float: left;font-weight: bold;">
+
+                REF : {{Ref4}} <br> {{Des4}}
+
+            </div>
+            <!-- table credit -->
+            <div>
+                <table style="height:90%;width: 40%; ">
+                    <tr>
+                        <td width="70% "></td>
+                        <td>{{Prix124}}</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>{{Prix244}}</td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+
+                        <td>{{prix364}}</td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<br><br><br><br><br>
+
+<h1>Ticket1</h1>
+<div class="form-group">
+    <label class="control-label col-sm-2" for="Reference">Réference:</label>
+    <input type="text" class="form-control" [(ngModel)]="Ref1" name="Ref1">
+
+</div>
+<div class="form-group">
+    <label class="control-label col-sm-2" for="des">Désignation:</label>
+
+    <input type="text" class="form-control" name="Des1" [(ngModel)]="Des1">
+
+</div>
+<hr color="blue">
+<div class="form-group">
+    <label class="control-label col-sm-2" for="des">PRIX COMPTANT:</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" id="PrixConptant" name="PrixConptant1" [(ngModel)]="PrixConptant1" placeholder="PRIX">
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-sm-2" for="des">Vente a Crédit:</label>
+    <div class="row">
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="Prix12" name="Prix121" [(ngModel)]="Prix121" placeholder="Prix sur 12Mois">
+        </div>
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="Prix24" name="Prix241" [(ngModel)]="Prix241" placeholder="Prix sur 24Mois">
+        </div>
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="prix36" name="prix361" [(ngModel)]="prix361" placeholder="Prix sur 36Mois">
+        </div>
+    </div>
+</div>
+
+<hr color="blue">
+<h1>Ticket2</h1>
+<div class="form-group">
+    <label class="control-label col-sm-2" for="Reference">Réference:</label>
+    <input type="text" class="form-control" [(ngModel)]="Ref2" name="Ref2">
+
+</div>
+<div class="form-group">
+    <label class="control-label col-sm-2" for="des">Désignation:</label>
+
+    <input type="text" class="form-control" name="Des2" [(ngModel)]="Des2">
+
+</div>
+<hr color="blue">
+<div class="form-group">
+    <label class="control-label col-sm-2" for="des">PRIX COMPTANT:</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" id="PrixConptant" name="PrixConptant2" [(ngModel)]="PrixConptant2" placeholder="PRIX">
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-sm-2" for="des">Vente a Crédit:</label>
+    <div class="row">
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="Prix12" name="Prix122" [(ngModel)]="Prix122" placeholder="Prix sur 12Mois">
+        </div>
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="Prix24" name="Prix242" [(ngModel)]="Prix242" placeholder="Prix sur 24Mois">
+        </div>
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="prix36" name="prix362" [(ngModel)]="prix362" placeholder="Prix sur 36Mois">
+        </div>
+    </div>
+</div>
+
+<hr color="blue">
+<h1>Ticket3</h1>
+<div class="form-group">
+    <label class="control-label col-sm-2" for="Reference">Réference:</label>
+    <input type="text" class="form-control" [(ngModel)]="Ref3" name="Ref3">
+
+</div>
+<div class="form-group">
+    <label class="control-label col-sm-2" for="des">Désignation:</label>
+
+    <input type="text" class="form-control" name="Des3" [(ngModel)]="Des3">
+
+</div>
+<hr color="blue">
+<div class="form-group">
+    <label class="control-label col-sm-2" for="des">PRIX COMPTANT:</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" id="PrixConptant" name="PrixConptant3" [(ngModel)]="PrixConptant3" placeholder="PRIX">
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-sm-2" for="des">Vente a Crédit:</label>
+    <div class="row">
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="Prix12" name="Prix123" [(ngModel)]="Prix123" placeholder="Prix sur 12Mois">
+        </div>
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="Prix24" name="Prix243" [(ngModel)]="Prix243" placeholder="Prix sur 24Mois">
+        </div>
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="prix36" name="prix363" [(ngModel)]="prix363" placeholder="Prix sur 36Mois">
+        </div>
+    </div>
+</div>
+
+<hr color="blue">
+<h1>Ticket4</h1>
+<div class="form-group">
+    <label class="control-label col-sm-2" for="Reference">Réference:</label>
+    <input type="text" class="form-control" [(ngModel)]="Ref4" name="Ref4">
+
+</div>
+<div class="form-group">
+    <label class="control-label col-sm-2" for="des">Désignation:</label>
+
+    <input type="text" class="form-control" name="Des4" [(ngModel)]="Des4">
+
+</div>
+<hr color="blue">
+<div class="form-group">
+    <label class="control-label col-sm-2" for="des">PRIX COMPTANT:</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" id="PrixConptant" name="PrixConptant4" [(ngModel)]="PrixConptant4" placeholder="PRIX">
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-sm-2" for="des">Vente a Crédit:</label>
+    <div class="row">
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="Prix12" name="Prix124" [(ngModel)]="Prix124" placeholder="Prix sur 12Mois">
+        </div>
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="Prix24" name="Prix244" [(ngModel)]="Prix244" placeholder="Prix sur 24Mois">
+        </div>
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="prix36" name="prix364" [(ngModel)]="prix364" placeholder="Prix sur 36Mois">
+        </div>
+    </div>
+</div>
+
+<hr color="blue">
+<button class="btn btn-primary" type="button" printTitle="MyTitle" printSectionId="imp" ngxPrint>Print</button>
